@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <title>HTML template</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href='https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700italic,700|PT+Serif:400,400italic,700,700italic" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
 
@@ -35,9 +36,10 @@
     <p>In fact, <cite>Jim Halpert</cite> once said this about beets. <q>Fact, bears eat beets. Bears, beets, <i>Battlestar Galactica</i></q>.</p>
     <blockquote>I have some <em>weird</em> habits. For instance, <strong>I love beets.</strong> Show me a salad bar and I will clean them out of their beets. -<cite>Chris Pratt</cite></blockquote>
   </main>
+  <aside>
   <header>
     <h2>Common varieties</h2>
-    <ol>
+    <ol class="common">
       <li>Albino</li>
       <li>Bull's Blood</li>
       <li>Chioggia</li>
@@ -48,7 +50,7 @@
   <header>
     <h2>Nutritional information</h2>
     <p>Serving size: <data value="100"></data>100 g</p>
-    <dl>
+    <dl class="serving">
       <dt>Energy:</dt>
       <dd>180 kJ</dd>
       <dt>Carbohydrates:</dt>
@@ -59,7 +61,7 @@
       <dd>1.68 g</dd>
     </dl>
     <h2>Tags</h2>
-    <ul>
+    <ul class="tags">
       <li>Crimson</li>
       <li>Awesome</li>
       <li>Pickle-able</li>
@@ -67,6 +69,7 @@
       <li>Delicious</li>
     </ul>
   </header>
+</aside>
   <footer>
     <p><small>Source: <a href="https://en.wikipedia.org/">Wikipedia</a>;Last modified: Aug 30, 2014</small></p>
     <time datetime="2014-08-30"></time>
